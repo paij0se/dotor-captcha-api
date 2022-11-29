@@ -26,4 +26,4 @@ removing_files = glob.glob('./*.png')
 for i in removing_files:
     os.remove(i)
 
-app.run(host='0.0.0.0', port=81)
+app.run(host='0.0.0.0', port=8080)
